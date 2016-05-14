@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="palm.new.net.xml"/>
+        <route-files value="palm.rand.rou.xml"/>
+        <!-- <additional-files value="palm.additional.xml"/> -->
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="86400"/>
+    </time>
+
+    <gui_only>
+        <gui-settings-file value="palm.settings.xml"/>
+    </gui_only>
+
+</configuration>
+
+<!-- 
+-->
